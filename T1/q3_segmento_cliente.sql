@@ -1,0 +1,6 @@
+SELECT 
+    distinct(C_MKTSEGMENT), count (*)
+FROM
+    CUSTOMER
+GROUP BY
+    C_MKTSEGMENT;
